@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D503929C1DA660E900996C4A /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503929B1DA660E900996C4A /* LogUtil.swift */; };
+		D503929F1DA663D100996C4A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503929E1DA663D100996C4A /* SwiftyJSON.swift */; };
+		D50392AB1DA66BD900996C4A /* DatabaseGeneratorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50392AA1DA66BD900996C4A /* DatabaseGeneratorManager.swift */; };
+		D50392B11DA74DE500996C4A /* Cardsbacks.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50392B01DA74DE500996C4A /* Cardsbacks.xcassets */; };
+		D50392EE1DA74EED00996C4A /* Card_Back_Alleria.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B41DA74EEC00996C4A /* Card_Back_Alleria.gif */; };
+		D50392EF1DA74EED00996C4A /* Card_Back_BlackTemple.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B51DA74EEC00996C4A /* Card_Back_BlackTemple.gif */; };
+		D50392F01DA74EED00996C4A /* Card_Back_Blizzard2014.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B61DA74EEC00996C4A /* Card_Back_Blizzard2014.gif */; };
+		D50392F11DA74EED00996C4A /* Card_Back_Blizzard2015.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B71DA74EEC00996C4A /* Card_Back_Blizzard2015.gif */; };
+		D50392F21DA74EED00996C4A /* Card_Back_Charm.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B81DA74EEC00996C4A /* Card_Back_Charm.gif */; };
+		D50392F31DA74EED00996C4A /* Card_Back_Cupcake.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392B91DA74EEC00996C4A /* Card_Back_Cupcake.gif */; };
+		D50392F41DA74EED00996C4A /* Card_Back_Default.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BA1DA74EEC00996C4A /* Card_Back_Default.gif */; };
+		D50392F51DA74EED00996C4A /* Card_Back_Draenei.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BB1DA74EEC00996C4A /* Card_Back_Draenei.gif */; };
+		D50392F61DA74EED00996C4A /* Card_Back_Druid.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BC1DA74EEC00996C4A /* Card_Back_Druid.gif */; };
+		D50392F71DA74EED00996C4A /* Card_Back_Esports.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BD1DA74EEC00996C4A /* Card_Back_Esports.gif */; };
+		D50392F81DA74EED00996C4A /* Card_Back_Gnome.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BE1DA74EEC00996C4A /* Card_Back_Gnome.gif */; };
+		D50392F91DA74EED00996C4A /* Card_Back_Goblin.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392BF1DA74EEC00996C4A /* Card_Back_Goblin.gif */; };
+		D50392FA1DA74EED00996C4A /* Card_Back_GoldenCelebration.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C01DA74EED00996C4A /* Card_Back_GoldenCelebration.gif */; };
+		D50392FB1DA74EED00996C4A /* Card_Back_Hallows_End.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C11DA74EED00996C4A /* Card_Back_Hallows_End.gif */; };
+		D50392FC1DA74EED00996C4A /* Card_Back_Highmaul.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C21DA74EED00996C4A /* Card_Back_Highmaul.gif */; };
+		D50392FD1DA74EED00996C4A /* Card_Back_Hogger.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C31DA74EED00996C4A /* Card_Back_Hogger.gif */; };
+		D50392FE1DA74EED00996C4A /* Card_Back_HotS.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C41DA74EED00996C4A /* Card_Back_HotS.gif */; };
+		D50392FF1DA74EED00996C4A /* Card_Back_IceCrown.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C51DA74EED00996C4A /* Card_Back_IceCrown.gif */; };
+		D50393001DA74EED00996C4A /* Card_Back_KAR_DiscoBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C61DA74EED00996C4A /* Card_Back_KAR_DiscoBall.gif */; };
+		D50393011DA74EED00996C4A /* Card_Back_KAR_Invitation.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C71DA74EED00996C4A /* Card_Back_KAR_Invitation.gif */; };
+		D50393021DA74EED00996C4A /* Card_Back_KAR_Portal.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C81DA74EED00996C4A /* Card_Back_KAR_Portal.gif */; };
+		D50393031DA74EED00996C4A /* Card_Back_Launch.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392C91DA74EED00996C4A /* Card_Back_Launch.gif */; };
+		D50393041DA74EED00996C4A /* Card_Back_Legend.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CA1DA74EED00996C4A /* Card_Back_Legend.gif */; };
+		D50393051DA74EED00996C4A /* Card_Back_Legion.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CB1DA74EED00996C4A /* Card_Back_Legion.gif */; };
+		D50393061DA74EED00996C4A /* Card_Back_LOE1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CC1DA74EED00996C4A /* Card_Back_LOE1.gif */; };
+		D50393071DA74EED00996C4A /* Card_Back_LOE2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CD1DA74EED00996C4A /* Card_Back_LOE2.gif */; };
+		D50393081DA74EED00996C4A /* Card_Back_Love_Is_In_The_Air.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CE1DA74EED00996C4A /* Card_Back_Love_Is_In_The_Air.gif */; };
+		D50393091DA74EED00996C4A /* Card_Back_Lunar.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392CF1DA74EED00996C4A /* Card_Back_Lunar.gif */; };
+		D503930A1DA74EED00996C4A /* Card_Back_Magni.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D01DA74EED00996C4A /* Card_Back_Magni.gif */; };
+		D503930B1DA74EED00996C4A /* Card_Back_Maraad.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D11DA74EED00996C4A /* Card_Back_Maraad.gif */; };
+		D503930C1DA74EED00996C4A /* Card_Back_Medivh.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D21DA74EED00996C4A /* Card_Back_Medivh.gif */; };
+		D503930D1DA74EED00996C4A /* Card_Back_MoltonCore.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D31DA74EED00996C4A /* Card_Back_MoltonCore.gif */; };
+		D503930E1DA74EED00996C4A /* Card_Back_Murloc.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D41DA74EED00996C4A /* Card_Back_Murloc.gif */; };
+		D503930F1DA74EED00996C4A /* Card_Back_Naxxramas.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D51DA74EED00996C4A /* Card_Back_Naxxramas.gif */; };
+		D50393101DA74EED00996C4A /* Card_Back_Naxxramas2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D61DA74EED00996C4A /* Card_Back_Naxxramas2.gif */; };
+		D50393111DA74EED00996C4A /* Card_Back_Nefarian.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D71DA74EED00996C4A /* Card_Back_Nefarian.gif */; };
+		D50393121DA74EED00996C4A /* Card_Back_Ninja.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D81DA74EED00996C4A /* Card_Back_Ninja.gif */; };
+		D50393131DA74EED00996C4A /* Card_Back_OG1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392D91DA74EED00996C4A /* Card_Back_OG1.gif */; };
+		D50393141DA74EED00996C4A /* Card_Back_OG2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DA1DA74EED00996C4A /* Card_Back_OG2.gif */; };
+		D50393151DA74EED00996C4A /* Card_Back_Overwatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DB1DA74EED00996C4A /* Card_Back_Overwatch.gif */; };
+		D50393161DA74EED00996C4A /* Card_Back_Pandaria.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DC1DA74EED00996C4A /* Card_Back_Pandaria.gif */; };
+		D50393171DA74EED00996C4A /* Card_Back_Pandaria_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DD1DA74EED00996C4A /* Card_Back_Pandaria_02.gif */; };
+		D50393181DA74EED00996C4A /* Card_Back_Pie.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DE1DA74EED00996C4A /* Card_Back_Pie.gif */; };
+		D50393191DA74EED00996C4A /* Card_Back_Pirate.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392DF1DA74EED00996C4A /* Card_Back_Pirate.gif */; };
+		D503931A1DA74EED00996C4A /* Card_Back_Ragnaros.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E01DA74EED00996C4A /* Card_Back_Ragnaros.gif */; };
+		D503931B1DA74EED00996C4A /* Card_Back_Samsung.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E11DA74EED00996C4A /* Card_Back_Samsung.gif */; };
+		D503931C1DA74EED00996C4A /* Card_Back_Shadowmoon.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E21DA74EED00996C4A /* Card_Back_Shadowmoon.gif */; };
+		D503931D1DA74EED00996C4A /* Card_Back_Shaman.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E31DA74EED00996C4A /* Card_Back_Shaman.gif */; };
+		D503931E1DA74EED00996C4A /* Card_Back_Tauren.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E41DA74EED00996C4A /* Card_Back_Tauren.gif */; };
+		D503931F1DA74EED00996C4A /* Card_Back_TeSPA.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E51DA74EED00996C4A /* Card_Back_TeSPA.gif */; };
+		D50393201DA74EED00996C4A /* Card_Back_TGT.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E61DA74EED00996C4A /* Card_Back_TGT.gif */; };
+		D50393211DA74EED00996C4A /* Card_Back_TGT_Season.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E71DA74EED00996C4A /* Card_Back_TGT_Season.gif */; };
+		D50393221DA74EED00996C4A /* Card_Back_Troll.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E81DA74EED00996C4A /* Card_Back_Troll.gif */; };
+		D50393231DA74EED00996C4A /* Card_Back_Tyrande.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392E91DA74EED00996C4A /* Card_Back_Tyrande.gif */; };
+		D50393241DA74EED00996C4A /* Card_Back_Void.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392EA1DA74EED00996C4A /* Card_Back_Void.gif */; };
+		D50393251DA74EED00996C4A /* Card_Back_Warlords_of_Draenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392EB1DA74EED00996C4A /* Card_Back_Warlords_of_Draenor.gif */; };
+		D50393261DA74EED00996C4A /* Card_Back_WinterVeil.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392EC1DA74EED00996C4A /* Card_Back_WinterVeil.gif */; };
+		D50393271DA74EED00996C4A /* Card_Back_Zuldrak.gif in Resources */ = {isa = PBXBuildFile; fileRef = D50392ED1DA74EED00996C4A /* Card_Back_Zuldrak.gif */; };
+		D568A51F1DA5EADA00A0B653 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A51E1DA5EADA00A0B653 /* Hero.swift */; };
+		D568A5211DA5EC6300A0B653 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5201DA5EC6300A0B653 /* Card.swift */; };
+		D568A5231DA5EF0100A0B653 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5221DA5EF0100A0B653 /* CardBack.swift */; };
+		D568A5251DA5F11400A0B653 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5241DA5F11400A0B653 /* Achievement.swift */; };
+		D568A5271DA5F2EC00A0B653 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5261DA5F2EC00A0B653 /* Quest.swift */; };
+		D568A5291DA5F41B00A0B653 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5281DA5F41B00A0B653 /* Reward.swift */; };
+		D568A52B1DA5F7BB00A0B653 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A52A1DA5F7BB00A0B653 /* Season.swift */; };
+		D568A52D1DA5FB0300A0B653 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A52C1DA5FB0300A0B653 /* Adventure.swift */; };
+		D568A52F1DA6018A00A0B653 /* HearthStoneConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A52E1DA6018A00A0B653 /* HearthStoneConsts.swift */; };
+		D568A5351DA60E8900A0B653 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5341DA60E8900A0B653 /* Boss.swift */; };
+		D568A5551DA62F7100A0B653 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5491DA62F7100A0B653 /* Array.swift */; };
+		D568A5561DA62F7100A0B653 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A54A1DA62F7100A0B653 /* CGSize.swift */; };
+		D568A5571DA62F7100A0B653 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A54B1DA62F7100A0B653 /* UIImage.swift */; };
+		D568A5581DA62F7100A0B653 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A54E1DA62F7100A0B653 /* ImageSourceHelpers.swift */; };
+		D568A5591DA62F7100A0B653 /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5501DA62F7100A0B653 /* AnimatedFrame.swift */; };
+		D568A55A1DA62F7100A0B653 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5511DA62F7100A0B653 /* Animator.swift */; };
+		D568A55B1DA62F7100A0B653 /* FrameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5521DA62F7100A0B653 /* FrameStore.swift */; };
+		D568A55C1DA62F7100A0B653 /* GIFAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5531DA62F7100A0B653 /* GIFAnimatable.swift */; };
+		D568A55D1DA62F7100A0B653 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5541DA62F7100A0B653 /* GIFImageView.swift */; };
+		D568A5651DA6324400A0B653 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568A5191DA5DFD900A0B653 /* Realm.framework */; };
+		D568A5661DA6324400A0B653 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D568A5191DA5DFD900A0B653 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D568A5671DA6324400A0B653 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568A51A1DA5DFD900A0B653 /* RealmSwift.framework */; };
+		D568A5681DA6324400A0B653 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D568A51A1DA5DFD900A0B653 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D568A5721DA6519F00A0B653 /* HearthStoneCardsBacks.json in Resources */ = {isa = PBXBuildFile; fileRef = D568A56E1DA6519F00A0B653 /* HearthStoneCardsBacks.json */; };
+		D568A5731DA6519F00A0B653 /* HearthStoneSeasons.json in Resources */ = {isa = PBXBuildFile; fileRef = D568A56F1DA6519F00A0B653 /* HearthStoneSeasons.json */; };
+		D568A5781DA653A000A0B653 /* DatabaseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5771DA653A000A0B653 /* DatabaseGenerator.swift */; };
+		D568A57A1DA653C700A0B653 /* CardBackDatabaseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568A5791DA653C700A0B653 /* CardBackDatabaseGenerator.swift */; };
+		D575E8011DA5D54600057680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575E8001DA5D54600057680 /* AppDelegate.swift */; };
+		D575E8031DA5D54600057680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575E8021DA5D54600057680 /* ViewController.swift */; };
+		D575E8061DA5D54600057680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D575E8041DA5D54600057680 /* Main.storyboard */; };
+		D575E8081DA5D54600057680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D575E8071DA5D54600057680 /* Assets.xcassets */; };
+		D575E80B1DA5D54600057680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D575E8091DA5D54600057680 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D568A5691DA6324400A0B653 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D568A5681DA6324400A0B653 /* RealmSwift.framework in Embed Frameworks */,
+				D568A5661DA6324400A0B653 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D503929B1DA660E900996C4A /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		D503929E1DA663D100996C4A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D50392AA1DA66BD900996C4A /* DatabaseGeneratorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseGeneratorManager.swift; sourceTree = "<group>"; };
+		D50392AC1DA6913100996C4A /* CardsBack.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CardsBack.py; sourceTree = "<group>"; };
+		D50392B01DA74DE500996C4A /* Cardsbacks.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cardsbacks.xcassets; sourceTree = "<group>"; };
+		D50392B41DA74EEC00996C4A /* Card_Back_Alleria.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Alleria.gif; sourceTree = "<group>"; };
+		D50392B51DA74EEC00996C4A /* Card_Back_BlackTemple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_BlackTemple.gif; sourceTree = "<group>"; };
+		D50392B61DA74EEC00996C4A /* Card_Back_Blizzard2014.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Blizzard2014.gif; sourceTree = "<group>"; };
+		D50392B71DA74EEC00996C4A /* Card_Back_Blizzard2015.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Blizzard2015.gif; sourceTree = "<group>"; };
+		D50392B81DA74EEC00996C4A /* Card_Back_Charm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Charm.gif; sourceTree = "<group>"; };
+		D50392B91DA74EEC00996C4A /* Card_Back_Cupcake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Cupcake.gif; sourceTree = "<group>"; };
+		D50392BA1DA74EEC00996C4A /* Card_Back_Default.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Default.gif; sourceTree = "<group>"; };
+		D50392BB1DA74EEC00996C4A /* Card_Back_Draenei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Draenei.gif; sourceTree = "<group>"; };
+		D50392BC1DA74EEC00996C4A /* Card_Back_Druid.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Druid.gif; sourceTree = "<group>"; };
+		D50392BD1DA74EEC00996C4A /* Card_Back_Esports.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Esports.gif; sourceTree = "<group>"; };
+		D50392BE1DA74EEC00996C4A /* Card_Back_Gnome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Gnome.gif; sourceTree = "<group>"; };
+		D50392BF1DA74EEC00996C4A /* Card_Back_Goblin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Goblin.gif; sourceTree = "<group>"; };
+		D50392C01DA74EED00996C4A /* Card_Back_GoldenCelebration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_GoldenCelebration.gif; sourceTree = "<group>"; };
+		D50392C11DA74EED00996C4A /* Card_Back_Hallows_End.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Hallows_End.gif; sourceTree = "<group>"; };
+		D50392C21DA74EED00996C4A /* Card_Back_Highmaul.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Highmaul.gif; sourceTree = "<group>"; };
+		D50392C31DA74EED00996C4A /* Card_Back_Hogger.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Hogger.gif; sourceTree = "<group>"; };
+		D50392C41DA74EED00996C4A /* Card_Back_HotS.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_HotS.gif; sourceTree = "<group>"; };
+		D50392C51DA74EED00996C4A /* Card_Back_IceCrown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_IceCrown.gif; sourceTree = "<group>"; };
+		D50392C61DA74EED00996C4A /* Card_Back_KAR_DiscoBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_KAR_DiscoBall.gif; sourceTree = "<group>"; };
+		D50392C71DA74EED00996C4A /* Card_Back_KAR_Invitation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_KAR_Invitation.gif; sourceTree = "<group>"; };
+		D50392C81DA74EED00996C4A /* Card_Back_KAR_Portal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_KAR_Portal.gif; sourceTree = "<group>"; };
+		D50392C91DA74EED00996C4A /* Card_Back_Launch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Launch.gif; sourceTree = "<group>"; };
+		D50392CA1DA74EED00996C4A /* Card_Back_Legend.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Legend.gif; sourceTree = "<group>"; };
+		D50392CB1DA74EED00996C4A /* Card_Back_Legion.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Legion.gif; sourceTree = "<group>"; };
+		D50392CC1DA74EED00996C4A /* Card_Back_LOE1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_LOE1.gif; sourceTree = "<group>"; };
+		D50392CD1DA74EED00996C4A /* Card_Back_LOE2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_LOE2.gif; sourceTree = "<group>"; };
+		D50392CE1DA74EED00996C4A /* Card_Back_Love_Is_In_The_Air.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Love_Is_In_The_Air.gif; sourceTree = "<group>"; };
+		D50392CF1DA74EED00996C4A /* Card_Back_Lunar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Lunar.gif; sourceTree = "<group>"; };
+		D50392D01DA74EED00996C4A /* Card_Back_Magni.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Magni.gif; sourceTree = "<group>"; };
+		D50392D11DA74EED00996C4A /* Card_Back_Maraad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Maraad.gif; sourceTree = "<group>"; };
+		D50392D21DA74EED00996C4A /* Card_Back_Medivh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Medivh.gif; sourceTree = "<group>"; };
+		D50392D31DA74EED00996C4A /* Card_Back_MoltonCore.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_MoltonCore.gif; sourceTree = "<group>"; };
+		D50392D41DA74EED00996C4A /* Card_Back_Murloc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Murloc.gif; sourceTree = "<group>"; };
+		D50392D51DA74EED00996C4A /* Card_Back_Naxxramas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Naxxramas.gif; sourceTree = "<group>"; };
+		D50392D61DA74EED00996C4A /* Card_Back_Naxxramas2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Naxxramas2.gif; sourceTree = "<group>"; };
+		D50392D71DA74EED00996C4A /* Card_Back_Nefarian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Nefarian.gif; sourceTree = "<group>"; };
+		D50392D81DA74EED00996C4A /* Card_Back_Ninja.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Ninja.gif; sourceTree = "<group>"; };
+		D50392D91DA74EED00996C4A /* Card_Back_OG1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_OG1.gif; sourceTree = "<group>"; };
+		D50392DA1DA74EED00996C4A /* Card_Back_OG2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_OG2.gif; sourceTree = "<group>"; };
+		D50392DB1DA74EED00996C4A /* Card_Back_Overwatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Overwatch.gif; sourceTree = "<group>"; };
+		D50392DC1DA74EED00996C4A /* Card_Back_Pandaria.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Pandaria.gif; sourceTree = "<group>"; };
+		D50392DD1DA74EED00996C4A /* Card_Back_Pandaria_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Pandaria_02.gif; sourceTree = "<group>"; };
+		D50392DE1DA74EED00996C4A /* Card_Back_Pie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Pie.gif; sourceTree = "<group>"; };
+		D50392DF1DA74EED00996C4A /* Card_Back_Pirate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Pirate.gif; sourceTree = "<group>"; };
+		D50392E01DA74EED00996C4A /* Card_Back_Ragnaros.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Ragnaros.gif; sourceTree = "<group>"; };
+		D50392E11DA74EED00996C4A /* Card_Back_Samsung.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Samsung.gif; sourceTree = "<group>"; };
+		D50392E21DA74EED00996C4A /* Card_Back_Shadowmoon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Shadowmoon.gif; sourceTree = "<group>"; };
+		D50392E31DA74EED00996C4A /* Card_Back_Shaman.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Shaman.gif; sourceTree = "<group>"; };
+		D50392E41DA74EED00996C4A /* Card_Back_Tauren.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Tauren.gif; sourceTree = "<group>"; };
+		D50392E51DA74EED00996C4A /* Card_Back_TeSPA.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_TeSPA.gif; sourceTree = "<group>"; };
+		D50392E61DA74EED00996C4A /* Card_Back_TGT.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_TGT.gif; sourceTree = "<group>"; };
+		D50392E71DA74EED00996C4A /* Card_Back_TGT_Season.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_TGT_Season.gif; sourceTree = "<group>"; };
+		D50392E81DA74EED00996C4A /* Card_Back_Troll.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Troll.gif; sourceTree = "<group>"; };
+		D50392E91DA74EED00996C4A /* Card_Back_Tyrande.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Tyrande.gif; sourceTree = "<group>"; };
+		D50392EA1DA74EED00996C4A /* Card_Back_Void.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Void.gif; sourceTree = "<group>"; };
+		D50392EB1DA74EED00996C4A /* Card_Back_Warlords_of_Draenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Warlords_of_Draenor.gif; sourceTree = "<group>"; };
+		D50392EC1DA74EED00996C4A /* Card_Back_WinterVeil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_WinterVeil.gif; sourceTree = "<group>"; };
+		D50392ED1DA74EED00996C4A /* Card_Back_Zuldrak.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Card_Back_Zuldrak.gif; sourceTree = "<group>"; };
+		D568A5191DA5DFD900A0B653 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D568A51A1DA5DFD900A0B653 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		D568A51E1DA5EADA00A0B653 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		D568A5201DA5EC6300A0B653 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D568A5221DA5EF0100A0B653 /* CardBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
+		D568A5241DA5F11400A0B653 /* Achievement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		D568A5261DA5F2EC00A0B653 /* Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		D568A5281DA5F41B00A0B653 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		D568A52A1DA5F7BB00A0B653 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		D568A52C1DA5FB0300A0B653 /* Adventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		D568A52E1DA6018A00A0B653 /* HearthStoneConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearthStoneConsts.swift; sourceTree = "<group>"; };
+		D568A5341DA60E8900A0B653 /* Boss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+		D568A5491DA62F7100A0B653 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D568A54A1DA62F7100A0B653 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		D568A54B1DA62F7100A0B653 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		D568A54C1DA62F7100A0B653 /* Gifu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gifu.h; sourceTree = "<group>"; };
+		D568A54E1DA62F7100A0B653 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		D568A5501DA62F7100A0B653 /* AnimatedFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFrame.swift; sourceTree = "<group>"; };
+		D568A5511DA62F7100A0B653 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		D568A5521DA62F7100A0B653 /* FrameStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameStore.swift; sourceTree = "<group>"; };
+		D568A5531DA62F7100A0B653 /* GIFAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFAnimatable.swift; sourceTree = "<group>"; };
+		D568A5541DA62F7100A0B653 /* GIFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		D568A56D1DA6519F00A0B653 /* Achievements.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Achievements.py; sourceTree = "<group>"; };
+		D568A56E1DA6519F00A0B653 /* HearthStoneCardsBacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HearthStoneCardsBacks.json; sourceTree = "<group>"; };
+		D568A56F1DA6519F00A0B653 /* HearthStoneSeasons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HearthStoneSeasons.json; sourceTree = "<group>"; };
+		D568A5701DA6519F00A0B653 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D568A5771DA653A000A0B653 /* DatabaseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseGenerator.swift; sourceTree = "<group>"; };
+		D568A5791DA653C700A0B653 /* CardBackDatabaseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBackDatabaseGenerator.swift; sourceTree = "<group>"; };
+		D575E7FD1DA5D54600057680 /* HearthStoneFans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthStoneFans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D575E8001DA5D54600057680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D575E8021DA5D54600057680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D575E8051DA5D54600057680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D575E8071DA5D54600057680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D575E80A1DA5D54600057680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D575E80C1DA5D54600057680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D575E7FA1DA5D54600057680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D568A5671DA6324400A0B653 /* RealmSwift.framework in Frameworks */,
+				D568A5651DA6324400A0B653 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D503929D1DA663D100996C4A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D503929E1DA663D100996C4A /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		D50392B21DA74EEC00996C4A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D50392B31DA74EEC00996C4A /* Cardsbacks */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D50392B31DA74EEC00996C4A /* Cardsbacks */ = {
+			isa = PBXGroup;
+			children = (
+				D50392B41DA74EEC00996C4A /* Card_Back_Alleria.gif */,
+				D50392B51DA74EEC00996C4A /* Card_Back_BlackTemple.gif */,
+				D50392B61DA74EEC00996C4A /* Card_Back_Blizzard2014.gif */,
+				D50392B71DA74EEC00996C4A /* Card_Back_Blizzard2015.gif */,
+				D50392B81DA74EEC00996C4A /* Card_Back_Charm.gif */,
+				D50392B91DA74EEC00996C4A /* Card_Back_Cupcake.gif */,
+				D50392BA1DA74EEC00996C4A /* Card_Back_Default.gif */,
+				D50392BB1DA74EEC00996C4A /* Card_Back_Draenei.gif */,
+				D50392BC1DA74EEC00996C4A /* Card_Back_Druid.gif */,
+				D50392BD1DA74EEC00996C4A /* Card_Back_Esports.gif */,
+				D50392BE1DA74EEC00996C4A /* Card_Back_Gnome.gif */,
+				D50392BF1DA74EEC00996C4A /* Card_Back_Goblin.gif */,
+				D50392C01DA74EED00996C4A /* Card_Back_GoldenCelebration.gif */,
+				D50392C11DA74EED00996C4A /* Card_Back_Hallows_End.gif */,
+				D50392C21DA74EED00996C4A /* Card_Back_Highmaul.gif */,
+				D50392C31DA74EED00996C4A /* Card_Back_Hogger.gif */,
+				D50392C41DA74EED00996C4A /* Card_Back_HotS.gif */,
+				D50392C51DA74EED00996C4A /* Card_Back_IceCrown.gif */,
+				D50392C61DA74EED00996C4A /* Card_Back_KAR_DiscoBall.gif */,
+				D50392C71DA74EED00996C4A /* Card_Back_KAR_Invitation.gif */,
+				D50392C81DA74EED00996C4A /* Card_Back_KAR_Portal.gif */,
+				D50392C91DA74EED00996C4A /* Card_Back_Launch.gif */,
+				D50392CA1DA74EED00996C4A /* Card_Back_Legend.gif */,
+				D50392CB1DA74EED00996C4A /* Card_Back_Legion.gif */,
+				D50392CC1DA74EED00996C4A /* Card_Back_LOE1.gif */,
+				D50392CD1DA74EED00996C4A /* Card_Back_LOE2.gif */,
+				D50392CE1DA74EED00996C4A /* Card_Back_Love_Is_In_The_Air.gif */,
+				D50392CF1DA74EED00996C4A /* Card_Back_Lunar.gif */,
+				D50392D01DA74EED00996C4A /* Card_Back_Magni.gif */,
+				D50392D11DA74EED00996C4A /* Card_Back_Maraad.gif */,
+				D50392D21DA74EED00996C4A /* Card_Back_Medivh.gif */,
+				D50392D31DA74EED00996C4A /* Card_Back_MoltonCore.gif */,
+				D50392D41DA74EED00996C4A /* Card_Back_Murloc.gif */,
+				D50392D51DA74EED00996C4A /* Card_Back_Naxxramas.gif */,
+				D50392D61DA74EED00996C4A /* Card_Back_Naxxramas2.gif */,
+				D50392D71DA74EED00996C4A /* Card_Back_Nefarian.gif */,
+				D50392D81DA74EED00996C4A /* Card_Back_Ninja.gif */,
+				D50392D91DA74EED00996C4A /* Card_Back_OG1.gif */,
+				D50392DA1DA74EED00996C4A /* Card_Back_OG2.gif */,
+				D50392DB1DA74EED00996C4A /* Card_Back_Overwatch.gif */,
+				D50392DC1DA74EED00996C4A /* Card_Back_Pandaria.gif */,
+				D50392DD1DA74EED00996C4A /* Card_Back_Pandaria_02.gif */,
+				D50392DE1DA74EED00996C4A /* Card_Back_Pie.gif */,
+				D50392DF1DA74EED00996C4A /* Card_Back_Pirate.gif */,
+				D50392E01DA74EED00996C4A /* Card_Back_Ragnaros.gif */,
+				D50392E11DA74EED00996C4A /* Card_Back_Samsung.gif */,
+				D50392E21DA74EED00996C4A /* Card_Back_Shadowmoon.gif */,
+				D50392E31DA74EED00996C4A /* Card_Back_Shaman.gif */,
+				D50392E41DA74EED00996C4A /* Card_Back_Tauren.gif */,
+				D50392E51DA74EED00996C4A /* Card_Back_TeSPA.gif */,
+				D50392E61DA74EED00996C4A /* Card_Back_TGT.gif */,
+				D50392E71DA74EED00996C4A /* Card_Back_TGT_Season.gif */,
+				D50392E81DA74EED00996C4A /* Card_Back_Troll.gif */,
+				D50392E91DA74EED00996C4A /* Card_Back_Tyrande.gif */,
+				D50392EA1DA74EED00996C4A /* Card_Back_Void.gif */,
+				D50392EB1DA74EED00996C4A /* Card_Back_Warlords_of_Draenor.gif */,
+				D50392EC1DA74EED00996C4A /* Card_Back_WinterVeil.gif */,
+				D50392ED1DA74EED00996C4A /* Card_Back_Zuldrak.gif */,
+			);
+			path = Cardsbacks;
+			sourceTree = "<group>";
+		};
+		D568A5171DA5DFD900A0B653 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D503929D1DA663D100996C4A /* SwiftyJSON */,
+				D568A5361DA62ECD00A0B653 /* Gifu */,
+				D568A5181DA5DFD900A0B653 /* Realm */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		D568A5181DA5DFD900A0B653 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				D568A5191DA5DFD900A0B653 /* Realm.framework */,
+				D568A51A1DA5DFD900A0B653 /* RealmSwift.framework */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		D568A51D1DA5EAC500A0B653 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D568A51E1DA5EADA00A0B653 /* Hero.swift */,
+				D568A5341DA60E8900A0B653 /* Boss.swift */,
+				D568A5201DA5EC6300A0B653 /* Card.swift */,
+				D568A5221DA5EF0100A0B653 /* CardBack.swift */,
+				D568A5241DA5F11400A0B653 /* Achievement.swift */,
+				D568A5261DA5F2EC00A0B653 /* Quest.swift */,
+				D568A5281DA5F41B00A0B653 /* Reward.swift */,
+				D568A52A1DA5F7BB00A0B653 /* Season.swift */,
+				D568A52C1DA5FB0300A0B653 /* Adventure.swift */,
+				D568A52E1DA6018A00A0B653 /* HearthStoneConsts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D568A5361DA62ECD00A0B653 /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				D568A5481DA62F7100A0B653 /* Extensions */,
+				D568A54C1DA62F7100A0B653 /* Gifu.h */,
+				D568A54D1DA62F7100A0B653 /* Helpers */,
+				D568A54F1DA62F7100A0B653 /* Classes */,
+			);
+			path = Gifu;
+			sourceTree = "<group>";
+		};
+		D568A5481DA62F7100A0B653 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D568A5491DA62F7100A0B653 /* Array.swift */,
+				D568A54A1DA62F7100A0B653 /* CGSize.swift */,
+				D568A54B1DA62F7100A0B653 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D568A54D1DA62F7100A0B653 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D568A54E1DA62F7100A0B653 /* ImageSourceHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D568A54F1DA62F7100A0B653 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D568A5501DA62F7100A0B653 /* AnimatedFrame.swift */,
+				D568A5511DA62F7100A0B653 /* Animator.swift */,
+				D568A5521DA62F7100A0B653 /* FrameStore.swift */,
+				D568A5531DA62F7100A0B653 /* GIFAnimatable.swift */,
+				D568A5541DA62F7100A0B653 /* GIFImageView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D568A56C1DA6519F00A0B653 /* PythonScripts */ = {
+			isa = PBXGroup;
+			children = (
+				D568A56D1DA6519F00A0B653 /* Achievements.py */,
+				D50392AC1DA6913100996C4A /* CardsBack.py */,
+				D568A56E1DA6519F00A0B653 /* HearthStoneCardsBacks.json */,
+				D568A56F1DA6519F00A0B653 /* HearthStoneSeasons.json */,
+				D568A5701DA6519F00A0B653 /* README.md */,
+			);
+			path = PythonScripts;
+			sourceTree = "<group>";
+		};
+		D568A5751DA6521800A0B653 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D568A5761DA6539000A0B653 /* Generator */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		D568A5761DA6539000A0B653 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D50392AA1DA66BD900996C4A /* DatabaseGeneratorManager.swift */,
+				D568A5771DA653A000A0B653 /* DatabaseGenerator.swift */,
+				D568A5791DA653C700A0B653 /* CardBackDatabaseGenerator.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		D575E7F41DA5D54600057680 = {
+			isa = PBXGroup;
+			children = (
+				D575E7FF1DA5D54600057680 /* HearthStoneFans */,
+				D568A56C1DA6519F00A0B653 /* PythonScripts */,
+				D575E7FE1DA5D54600057680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D575E7FE1DA5D54600057680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D575E7FD1DA5D54600057680 /* HearthStoneFans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D575E7FF1DA5D54600057680 /* HearthStoneFans */ = {
+			isa = PBXGroup;
+			children = (
+				D50392B21DA74EEC00996C4A /* Resource */,
+				D568A5751DA6521800A0B653 /* Database */,
+				D568A51D1DA5EAC500A0B653 /* Models */,
+				D575E8001DA5D54600057680 /* AppDelegate.swift */,
+				D575E8021DA5D54600057680 /* ViewController.swift */,
+				D503929B1DA660E900996C4A /* LogUtil.swift */,
+				D575E8041DA5D54600057680 /* Main.storyboard */,
+				D575E8071DA5D54600057680 /* Assets.xcassets */,
+				D50392B01DA74DE500996C4A /* Cardsbacks.xcassets */,
+				D575E8091DA5D54600057680 /* LaunchScreen.storyboard */,
+				D575E80C1DA5D54600057680 /* Info.plist */,
+				D568A5171DA5DFD900A0B653 /* Vendor */,
+			);
+			path = HearthStoneFans;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D575E7FC1DA5D54600057680 /* HearthStoneFans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D575E80F1DA5D54600057680 /* Build configuration list for PBXNativeTarget "HearthStoneFans" */;
+			buildPhases = (
+				D575E7F91DA5D54600057680 /* Sources */,
+				D575E7FA1DA5D54600057680 /* Frameworks */,
+				D575E7FB1DA5D54600057680 /* Resources */,
+				D568A5691DA6324400A0B653 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearthStoneFans;
+			productName = HearthStoneFans;
+			productReference = D575E7FD1DA5D54600057680 /* HearthStoneFans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D575E7F51DA5D54600057680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Sketchingame;
+				TargetAttributes = {
+					D575E7FC1DA5D54600057680 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6RUU9PN7NF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D575E7F81DA5D54600057680 /* Build configuration list for PBXProject "HearthStoneFans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D575E7F41DA5D54600057680;
+			productRefGroup = D575E7FE1DA5D54600057680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D575E7FC1DA5D54600057680 /* HearthStoneFans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D575E7FB1DA5D54600057680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D503931B1DA74EED00996C4A /* Card_Back_Samsung.gif in Resources */,
+				D575E80B1DA5D54600057680 /* LaunchScreen.storyboard in Resources */,
+				D50393081DA74EED00996C4A /* Card_Back_Love_Is_In_The_Air.gif in Resources */,
+				D50393091DA74EED00996C4A /* Card_Back_Lunar.gif in Resources */,
+				D503930B1DA74EED00996C4A /* Card_Back_Maraad.gif in Resources */,
+				D50393231DA74EED00996C4A /* Card_Back_Tyrande.gif in Resources */,
+				D50393251DA74EED00996C4A /* Card_Back_Warlords_of_Draenor.gif in Resources */,
+				D50393261DA74EED00996C4A /* Card_Back_WinterVeil.gif in Resources */,
+				D568A5721DA6519F00A0B653 /* HearthStoneCardsBacks.json in Resources */,
+				D50393211DA74EED00996C4A /* Card_Back_TGT_Season.gif in Resources */,
+				D50393221DA74EED00996C4A /* Card_Back_Troll.gif in Resources */,
+				D50392FB1DA74EED00996C4A /* Card_Back_Hallows_End.gif in Resources */,
+				D503931E1DA74EED00996C4A /* Card_Back_Tauren.gif in Resources */,
+				D50392F71DA74EED00996C4A /* Card_Back_Esports.gif in Resources */,
+				D50393171DA74EED00996C4A /* Card_Back_Pandaria_02.gif in Resources */,
+				D50393111DA74EED00996C4A /* Card_Back_Nefarian.gif in Resources */,
+				D50393121DA74EED00996C4A /* Card_Back_Ninja.gif in Resources */,
+				D50392F31DA74EED00996C4A /* Card_Back_Cupcake.gif in Resources */,
+				D50393161DA74EED00996C4A /* Card_Back_Pandaria.gif in Resources */,
+				D50392F61DA74EED00996C4A /* Card_Back_Druid.gif in Resources */,
+				D50392EF1DA74EED00996C4A /* Card_Back_BlackTemple.gif in Resources */,
+				D50392F11DA74EED00996C4A /* Card_Back_Blizzard2015.gif in Resources */,
+				D50393151DA74EED00996C4A /* Card_Back_Overwatch.gif in Resources */,
+				D50393041DA74EED00996C4A /* Card_Back_Legend.gif in Resources */,
+				D50393141DA74EED00996C4A /* Card_Back_OG2.gif in Resources */,
+				D50393051DA74EED00996C4A /* Card_Back_Legion.gif in Resources */,
+				D503930E1DA74EED00996C4A /* Card_Back_Murloc.gif in Resources */,
+				D50392F21DA74EED00996C4A /* Card_Back_Charm.gif in Resources */,
+				D50392F51DA74EED00996C4A /* Card_Back_Draenei.gif in Resources */,
+				D575E8081DA5D54600057680 /* Assets.xcassets in Resources */,
+				D575E8061DA5D54600057680 /* Main.storyboard in Resources */,
+				D50393201DA74EED00996C4A /* Card_Back_TGT.gif in Resources */,
+				D50392F41DA74EED00996C4A /* Card_Back_Default.gif in Resources */,
+				D50393241DA74EED00996C4A /* Card_Back_Void.gif in Resources */,
+				D50392FF1DA74EED00996C4A /* Card_Back_IceCrown.gif in Resources */,
+				D50392FC1DA74EED00996C4A /* Card_Back_Highmaul.gif in Resources */,
+				D503931F1DA74EED00996C4A /* Card_Back_TeSPA.gif in Resources */,
+				D50393071DA74EED00996C4A /* Card_Back_LOE2.gif in Resources */,
+				D50392F81DA74EED00996C4A /* Card_Back_Gnome.gif in Resources */,
+				D503930F1DA74EED00996C4A /* Card_Back_Naxxramas.gif in Resources */,
+				D50393031DA74EED00996C4A /* Card_Back_Launch.gif in Resources */,
+				D50392F01DA74EED00996C4A /* Card_Back_Blizzard2014.gif in Resources */,
+				D50392FE1DA74EED00996C4A /* Card_Back_HotS.gif in Resources */,
+				D503930D1DA74EED00996C4A /* Card_Back_MoltonCore.gif in Resources */,
+				D503930C1DA74EED00996C4A /* Card_Back_Medivh.gif in Resources */,
+				D50392F91DA74EED00996C4A /* Card_Back_Goblin.gif in Resources */,
+				D503930A1DA74EED00996C4A /* Card_Back_Magni.gif in Resources */,
+				D503931C1DA74EED00996C4A /* Card_Back_Shadowmoon.gif in Resources */,
+				D503931D1DA74EED00996C4A /* Card_Back_Shaman.gif in Resources */,
+				D50392B11DA74DE500996C4A /* Cardsbacks.xcassets in Resources */,
+				D568A5731DA6519F00A0B653 /* HearthStoneSeasons.json in Resources */,
+				D50392EE1DA74EED00996C4A /* Card_Back_Alleria.gif in Resources */,
+				D50392FA1DA74EED00996C4A /* Card_Back_GoldenCelebration.gif in Resources */,
+				D50393061DA74EED00996C4A /* Card_Back_LOE1.gif in Resources */,
+				D50393181DA74EED00996C4A /* Card_Back_Pie.gif in Resources */,
+				D50393101DA74EED00996C4A /* Card_Back_Naxxramas2.gif in Resources */,
+				D50393191DA74EED00996C4A /* Card_Back_Pirate.gif in Resources */,
+				D50393021DA74EED00996C4A /* Card_Back_KAR_Portal.gif in Resources */,
+				D503931A1DA74EED00996C4A /* Card_Back_Ragnaros.gif in Resources */,
+				D50393011DA74EED00996C4A /* Card_Back_KAR_Invitation.gif in Resources */,
+				D50393131DA74EED00996C4A /* Card_Back_OG1.gif in Resources */,
+				D50392FD1DA74EED00996C4A /* Card_Back_Hogger.gif in Resources */,
+				D50393001DA74EED00996C4A /* Card_Back_KAR_DiscoBall.gif in Resources */,
+				D50393271DA74EED00996C4A /* Card_Back_Zuldrak.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D575E7F91DA5D54600057680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D568A5271DA5F2EC00A0B653 /* Quest.swift in Sources */,
+				D568A52B1DA5F7BB00A0B653 /* Season.swift in Sources */,
+				D568A55C1DA62F7100A0B653 /* GIFAnimatable.swift in Sources */,
+				D568A5591DA62F7100A0B653 /* AnimatedFrame.swift in Sources */,
+				D568A57A1DA653C700A0B653 /* CardBackDatabaseGenerator.swift in Sources */,
+				D568A51F1DA5EADA00A0B653 /* Hero.swift in Sources */,
+				D568A52F1DA6018A00A0B653 /* HearthStoneConsts.swift in Sources */,
+				D575E8031DA5D54600057680 /* ViewController.swift in Sources */,
+				D568A55A1DA62F7100A0B653 /* Animator.swift in Sources */,
+				D575E8011DA5D54600057680 /* AppDelegate.swift in Sources */,
+				D568A5571DA62F7100A0B653 /* UIImage.swift in Sources */,
+				D568A5291DA5F41B00A0B653 /* Reward.swift in Sources */,
+				D568A55B1DA62F7100A0B653 /* FrameStore.swift in Sources */,
+				D568A55D1DA62F7100A0B653 /* GIFImageView.swift in Sources */,
+				D568A5231DA5EF0100A0B653 /* CardBack.swift in Sources */,
+				D568A5351DA60E8900A0B653 /* Boss.swift in Sources */,
+				D503929C1DA660E900996C4A /* LogUtil.swift in Sources */,
+				D568A5581DA62F7100A0B653 /* ImageSourceHelpers.swift in Sources */,
+				D503929F1DA663D100996C4A /* SwiftyJSON.swift in Sources */,
+				D568A5551DA62F7100A0B653 /* Array.swift in Sources */,
+				D568A5561DA62F7100A0B653 /* CGSize.swift in Sources */,
+				D568A5211DA5EC6300A0B653 /* Card.swift in Sources */,
+				D568A52D1DA5FB0300A0B653 /* Adventure.swift in Sources */,
+				D568A5781DA653A000A0B653 /* DatabaseGenerator.swift in Sources */,
+				D50392AB1DA66BD900996C4A /* DatabaseGeneratorManager.swift in Sources */,
+				D568A5251DA5F11400A0B653 /* Achievement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D575E8041DA5D54600057680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D575E8051DA5D54600057680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D575E8091DA5D54600057680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D575E80A1DA5D54600057680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D575E80D1DA5D54600057680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D575E80E1DA5D54600057680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D575E8101DA5D54600057680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RUU9PN7NF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HearthStoneFans/Vendor/Realm",
+				);
+				INFOPLIST_FILE = HearthStoneFans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.childhoodandy.HearthStoneFans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D575E8111DA5D54600057680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RUU9PN7NF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HearthStoneFans/Vendor/Realm",
+				);
+				INFOPLIST_FILE = HearthStoneFans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.childhoodandy.HearthStoneFans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D575E7F81DA5D54600057680 /* Build configuration list for PBXProject "HearthStoneFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D575E80D1DA5D54600057680 /* Debug */,
+				D575E80E1DA5D54600057680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D575E80F1DA5D54600057680 /* Build configuration list for PBXNativeTarget "HearthStoneFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D575E8101DA5D54600057680 /* Debug */,
+				D575E8111DA5D54600057680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D575E7F51DA5D54600057680 /* Project object */;
+}
